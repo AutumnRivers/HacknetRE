@@ -131,7 +131,7 @@ public class CustomDaemon : Pathfinder.Daemon.BaseDaemon
     }
 }
 ```
-And the result:
+And the result:   
 ![A screenshot of Hacknet showing a daemon with the button and text, stating the button has been pressed 12 times.](./img/buttonCounterExample.png)
 
 Congratulations! 🎉 Pat yourself on the back again, you are now familiar with the basics of Hacknet's GUI system. You can only get better from here - the sky's the limit!

@@ -7,3 +7,6 @@
 
 ## Table of Contents:
 * [Buttons](./Buttons.md)
+* [CheckBoxes](./CheckBoxes.md)
+* [Rectangles](./Rectangles.md)
+* [TextItem](./TextItem.md)

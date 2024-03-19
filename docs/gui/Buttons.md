@@ -11,7 +11,13 @@ using Microsoft.Xna.Framework;
 
 Button.doButton(int id, int x, int y, int width, int height, string text, Color? color);
 ```
-`Button.doButton` will create a simple button (similar to the rest of the UI) that will return a `bool` value of whether or not it has been clicked. Like every other UI element, this should be put in a `draw` function. An example of how a button might be used is in an executable to exit the executable. For example:
+`Button.doButton` will create a simple button (similar to the rest of the UI) that will return a `bool` value of whether or not it has been clicked. Like every other UI element, this should be put in a `draw` function.
+
+Each button must have a unique `id`. If multiple buttons share the same ID, then clicking on one of them will act as clicking on all of them. 
+
+`color` determines the color of the tiny rectangle next to the text in buttons, not the button itself.
+
+An example of how a button might be used is in an executable to exit the executable. For example:
 ```csharp
 using Hacknet;
 using Hacknet.Gui;

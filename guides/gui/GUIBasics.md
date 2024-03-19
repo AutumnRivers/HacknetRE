@@ -94,7 +94,7 @@ Now, the button will add to the counter variable every time it is clicked. Wunde
         string labelText = $"The button has been pressed {counter} time(s)!";
 
         bool buttonPressed = Button.doButton(1737289, bounds.X + 25, bounds.Y + 25, bounds.Width / 2, 50, "Add to Counter", Color.White);
-        TextItem.doLabel(position, labelText, Color.White);
+        TextItem.doLabel(textPosition, labelText, Color.White);
 
         if(buttonPressed) {
             counter++;
@@ -123,7 +123,7 @@ public class CustomDaemon : Pathfinder.Daemon.BaseDaemon
         string labelText = $"The button has been pressed {counter} time(s)!";
 
         bool buttonPressed = Button.doButton(1737289, bounds.X + 25, bounds.Y + 25, bounds.Width / 2, 50, "Add to Counter", Color.White);
-        TextItem.doLabel(position, labelText, Color.White);
+        TextItem.doLabel(textPosition, labelText, Color.White);
 
         if(buttonPressed) {
             counter++;
